@@ -1,0 +1,45 @@
+body {
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+.game {
+    justify-content: center;
+    width: 100%;
+    gap: 100px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.matrix {
+    width: max-content;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(10, 25px);
+    grid-template-rows: repeat(20, 25px);
+}
+
+.start-button {
+    cursor: pointer;
+    padding: 5px;
+    background-color: #b9b9b9;
+    border: none;
+    outline: none;
+    margin: 20px auto;
+    display: grid;
+}
+
+.cola,.proximos {
+    background-color: #b9b9b9;
+    width: 300px;
+    height: 500px;
+}
+
+.cola h3,.proximos h3 {
+    margin: 15px;
+}
